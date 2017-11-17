@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+   <style>
+   @import 'static/style.css';
+   </style>
      <img src="./assets/logo.png">
      <ul>
        <li><router-link to="/" exact>Home</router-link></li>
@@ -8,6 +11,7 @@
        <li><router-link to="/about">About</router-link></li>
      </ul>
      <router-view class="view"></router-view>
+     <button class="btn btn-success" onclick="alert();">Done</button>
   </div>
 </template>
 
