@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-   <style>
-   @import 'static/style.css';
-   </style>
+   
      <img src="./assets/logo.png">
      <ul>
        <li><router-link to="/" exact>Home</router-link></li>
